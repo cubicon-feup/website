@@ -51,7 +51,7 @@ p {
 #planification-2 {
   position: absolute;
   top: 87vh;
-  right: 23vw;
+  right: 35vw;
   @media (min-width: 576px) {
     top: 90vh;
     right: 25vw;
@@ -193,29 +193,36 @@ p {
     color: #ffbc46;
     font-weight: 900;
     font-size: 2em;
-    padding-top: 55%;
+    padding-top: 45%;
     padding-left: 45%;
     @media (min-width: 576px) {
       font-size: 3em;
-      padding-top: 45%;
+      padding-top: 20%;
       padding-left: 45%;
     }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
-      padding-top: 35%;
+      padding-top: 15%;
       padding-left: 45%;
       font-size: 4em;
     }
 
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
-      padding-top: 25%;
+      padding-top: 15%;
       padding-left: 45%;
-      font-size: 5em;
+      font-size: 4em;
     }
 
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
+      padding-top: 15%;
+      padding-left: 45%;
+      font-size: 4em;
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1500px) {
       padding-top: 25%;
       padding-left: 45%;
       font-size: 5em;
